@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -96,6 +97,19 @@ li {
     justify-content: center;
     grid-column-gap: 24px;
     grid-row-gap: 24px;
+}
+
+.team-title {
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 22px;
+}
+
+.team-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 /* features of interest */
@@ -222,7 +236,7 @@ li {
 /* sponsor */
 
 .sponsor-info {
-    text-align: center;    
+    text-align: center;
 }
 
 .sponsor-title {
@@ -257,7 +271,7 @@ footer {
 .footer-info {
     color: #424242;
     font-weight: 400;
-    font-size: 20px;   
+    font-size: 20px;
 }
 
 
@@ -275,6 +289,7 @@ footer {
 
     .nav-bar {
         flex-direction: column;
+        margin-bottom: 15px;
     }
 
     .banner {
@@ -297,10 +312,56 @@ footer {
         grid-template-columns: 1fr;
     }
 
+    .team-title {
+        text-align: center;
+    }
+
+    .team-description {
+        text-align: center;
+        padding: 0;
+    }
+
     /* features */
 
-    .feature-container{
+    .feature-container {
         display: flex;
+        flex-direction: column;
+        margin: 0;
+        gap: 0;
+    }
+
+    .feature-title {
+        border-left: 5px solid #FF900E;
+        height: 110px;
+        font-size: 45px;
+    }
+
+    .feature-details {
+        text-align: center;
+    }
+
+    .feature-sub-title {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .architect-experience {
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+    }
+
+    .button-experience {
+        background-color: #FF900E;
+        padding: 46px 42px 45px 42px;
+        width: 342px;
+        height: 200px;
+        border: none;
+        border-radius: 8px;
+        position: relative;
+        left: 10px;
+        top: -15px;
+
     }
 
     /* facts */
@@ -337,7 +398,7 @@ footer {
     /* sponsor */
 
     .sponsor-title {
-        font-size: 30px;  
+        font-size: 30px;
     }
 
     .sponsor-description {
@@ -357,10 +418,16 @@ footer {
         margin: 0;
         padding: 20px;
     }
+
+    .button-primary {
+        justify-content: center;
+        /* margin: 30px 0 30px 0;
+        padding: 21px 24px 20px 25px; */
+    }
 }
 
 
 
-/* .feature-container {
+/* .architect-experience img {
     display: none;
 } */
