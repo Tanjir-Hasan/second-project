@@ -333,8 +333,12 @@ footer {
     /* nav and banner */
 
     .nav-bar {
+
         flex-direction: column;
-        margin-bottom: 15px;
+    }
+
+    ul {
+        display: block;
     }
 
     .banner {
