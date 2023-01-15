@@ -345,9 +345,11 @@ footer {
         margin-bottom: 5px;
     }
 
-    .architect-experience {
-        width: 100%;
+    .architect-experience img {
+        max-width: 100%;
+        max-height: 100%;
         box-sizing: border-box;
+        margin-top: 15px;
         margin-bottom: 30px;
     }
 
@@ -359,8 +361,8 @@ footer {
         border: none;
         border-radius: 8px;
         position: relative;
-        left: 10px;
-        top: -15px;
+        left: 33px;
+        top: -60px;
 
     }
 
