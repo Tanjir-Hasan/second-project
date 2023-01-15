@@ -95,11 +95,25 @@ li {
     grid-row-gap: 24px;
 }
 
-.team-title {
+.quick-feature-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 40px; 
+    margin-bottom: 22px;  
+}
+
+.title-color {
+    color: #727272;
+}
+
+.f-black {
+    color: #000000;
+    font-weight: 900;
+}
+
+.f-color {
     color: #FF900E;
     font-weight: 700;
-    font-size: 45px;
-    margin-bottom: 22px;
 }
 
 .team-description {
@@ -462,9 +476,5 @@ footer {
     footer {
         margin: 0;
         padding: 20px;
-    }
-
-    .button-primary {
-        justify-content: center;
     }
 }
